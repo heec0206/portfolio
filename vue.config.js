@@ -2,8 +2,8 @@
   devServer: { overlay: false },
   chainWebpack(config) {
     config.devtool('source-map')
-    config.output.filename = '[name].js'
-    config.output.chunkFilename = '[name].js'
+    //config.output.filename = '[name].js'
+    //config.output.chunkFilename = '[name].js'
   },
 
   css: {
