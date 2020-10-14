@@ -7,5 +7,5 @@
 
   publicPath: process.env.NODE_ENV === 'production'
       ? '/'
-      : '/portfolio/docs/'
+      : '/docs/'
 }
