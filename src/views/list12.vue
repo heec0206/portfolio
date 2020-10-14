@@ -22,6 +22,9 @@
       <p class="txt_hyphen">퍼블리싱 참여율 약 50%</p>
       <div class="btn_center"><a href="javascript:history.back(-1);" class="link_detail gray">목록</a></div>
     </div>
+
+    {{ msg }}<br/>
+    <!-- 역순메시지 : {{ reversedMessage }} -->
   </article>
 </template>
 
@@ -29,10 +32,27 @@
 export default {
   data(){
     return{
-
+      msg : '안녕하세요',
     }
+  },
 
-  }
+  beforeCreate:function(){
+    console.log(this.msg + " beforeCreate"); // hello
+  },
+
+  created:function() {
+    console.log(this.msg + " created"); // hello
+  },
+
+  mounted:function() {
+    console.log(this.msg + " mounted"); // hello
+  },
+
+  updated:function() {
+    console.log(this.msg + " updated"); // hello
+  },
+
+
 }
 </script>
 
