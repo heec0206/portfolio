@@ -33,9 +33,9 @@
 export default {
   data(){
     return{
-      test : '',
+
     }
-  },
+  }
 }
 </script>
 

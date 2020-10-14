@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import index from '../views/index.vue'
-import sub from '../views/sub.vue'
+//import sub from '../views/sub.vue'
 Vue.use(VueRouter)
 
 const routes = [

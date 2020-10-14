@@ -52,7 +52,6 @@ export default {
     console.log(this.msg + " updated"); // hello
   },
 
-
 }
 </script>
 
