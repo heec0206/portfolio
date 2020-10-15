@@ -7,7 +7,8 @@
     sourceMap : true,
   },
 
+  outputDir:'./docs',
   publicPath: process.env.NODE_ENV === 'production'
-      ? '/portfolio'
+      ? '/portfolio/'
       : '/'
 }
