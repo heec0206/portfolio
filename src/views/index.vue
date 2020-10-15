@@ -1,5 +1,6 @@
 <template>
   <article class="list">
+    asdasdasd
     <ul>
       <li v-for="item in list" :key="item.No">
         <router-link :to="'list' + item.No">
