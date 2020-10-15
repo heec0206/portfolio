@@ -1,37 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import index from '../views/index.vue'
-//import sub from '../views/sub.vue'
+import list01 from '../views/list01.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    name: 'index',
-    component: index,
-    meta: {
-      title: 'index',
-      metaTags: [{ name: 'description', content: 'index'}]
-    }
-  },
-  {
-    path: '/sub',
-    name: 'sub',
-    component: () => import(/* webpackChunkName: "sub" */ '../views/sub.vue'),
-    meta: {
-      title: 'sub',
-      metaTags: [{ name: 'description', content: 'sub'}]
-    }
-  },
-  {
-    path: '/list01',
-    name: 'list01',
-    component: () => import(/* webpackChunkName: "list01" */ '../views/list01.vue'),
-    meta: {
-      title: 'list01',
-      metaTags: [{ name: 'description', content: 'list01'}]
-    }
-  },
+  { path: '/', name: 'index', component: index },
+  { path: '/list01', name: 'list01', component: list01 },
+  //
+  // {
+  //   path: '/sub',
+  //   name: 'sub',
+  //   component: () => import(/* webpackChunkName: "sub" */ '../views/sub.vue'),
+  //   meta: {
+  //     title: 'sub',
+  //     metaTags: [{ name: 'description', content: 'sub'}]
+  //   }
+  // },
   {
     path: '/list02',
     name: 'list02',
