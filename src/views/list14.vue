@@ -1,19 +1,17 @@
 <template>
   <article class="detail">
-    <strong class="tit">하나은행 디지털캠퍼스</strong>
+    <strong class="tit">한국기술교육대학 STEP</strong>
 
     <div class="view-thumb">
-      <img src="@/assets/images/list12.jpg"/>
+      <img src="@/assets/images/list14.jpg"/>
       <ul>
-        <li><a class="link_detail" href="https://campus.hanabank.com" target="_blank">자세히보기</a></li>
-        <li><a class="link_detail" href="hhttps://heec0206.github.io/hc/publish/hana_dashboard/publish/dashboard/dashboard_user.html" target="_blank">Demo01</a></li>
-        <li><a class="link_detail" href="https://heec0206.github.io/hc/publish/hana_dashboard/publish/dashboard/dashboard_manager.html" target="_blank">Demo02</a></li>
+        <li><a class="link_detail" href="https://heec0206.github.io/hc/publish/step/" target="_blank">Demo</a></li>
       </ul>
     </div>
 
     <div class="view-info">
-      <h3>하나은행 디지털캠퍼스</h3>
-      <h4>https://campus.hanabank.com</h4>
+      <h3>한국기술교육대학 STEP</h3>
+      <h4></h4>
       <p class="txt_hyphen">소속 : 윌비소프트</p>
       <p class="txt_hyphen">작업년도 : 2020</p>
       <p class="txt_hyphen">type : Resonponsive</p>
@@ -30,7 +28,7 @@
 export default {
   data(){
     return{
-
+      //msg : '안녕하세요',
     }
   },
 

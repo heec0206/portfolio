@@ -23,6 +23,20 @@ export default {
     return {
       list: [
         {
+          No : "14",
+          name: "한국기술교육대학 STEP",
+          link: "-",
+          img : require('@/assets/images/list14.jpg'),
+        },
+
+        {
+          No : "13",
+          name: "대교 써밋국어",
+          link: "-",
+          img : require('@/assets/images/list13.jpg'),
+        },
+
+        {
           No : "12",
           name: "하나은행 디지털캠퍼스",
           link: "https://campus.hanabank.com",

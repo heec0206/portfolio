@@ -4,7 +4,7 @@ $point-color:#fff;
 $point-color-black : #222;
 $point-color-blue : skyblue;
 $txt_bold : 600;
-$txt_strong : 500; 
+$txt_strong : 500;
 
 .topLayout {
   overflow:hidden;
@@ -384,5 +384,9 @@ $txt_strong : 500;
     nav ul li {
       margin:0 0 0 10px;
     }
+  }
+  .link_detail {
+    padding:8px 14px;
+    font-size:15px;
   }
 }
