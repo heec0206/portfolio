@@ -23,7 +23,6 @@ export default {
   data() {
     return {
       list: [
-
         {
           No : "12",
           name: "하나은행 디지털캠퍼스",
