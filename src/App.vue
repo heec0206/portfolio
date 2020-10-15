@@ -7,8 +7,6 @@
         <router-view/>
       </div>
     </section>
-
-
     <footer-layout></footer-layout>
   </div>
 </template>
