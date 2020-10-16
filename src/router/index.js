@@ -15,6 +15,7 @@ import list11 from '../views/list11.vue'
 import list12 from '../views/list12.vue'
 import list13 from '../views/list13.vue'
 import list14 from '../views/list14.vue'
+import info from '../views/info.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -33,6 +34,7 @@ const routes = [
   { path: '/list12', name: 'list12', component: list12 },
   { path: '/list13', name: 'list13', component: list13 },
   { path: '/list14', name: 'list14', component: list14 },
+  { path: '/info', name: 'info', component: info },
 ]
 
 const router = new VueRouter({

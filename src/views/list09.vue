@@ -6,6 +6,7 @@
       <img src="@/assets/images/list09.jpg"/>
       <ul>
         <li><a class="link_detail" href="https://es.s4u.kr" target="_blank">자세히보기</a></li>
+        <li><a class="link_detail" href="https://heec0206.github.io/hc/publish/schoolforyou/user/" target="_blank">Demo</a></li>
         <!--
         <li><a class="link_detail" href="javascript:void(0);" target="_blank">Demo01</a></li>
         <li><a class="link_detail" href="javascript:void(0);" target="_blank">Demo02</a></li>

@@ -6,7 +6,7 @@
       <img src="@/assets/images/list12.jpg"/>
       <ul>
         <li><a class="link_detail" href="https://campus.hanabank.com" target="_blank">자세히보기</a></li>
-        <li><a class="link_detail" href="hhttps://heec0206.github.io/hc/publish/hana_dashboard/publish/dashboard/dashboard_user.html" target="_blank">Demo01</a></li>
+        <li><a class="link_detail" href="https://heec0206.github.io/hc/publish/hana_dashboard/publish/dashboard/dashboard_user.html" target="_blank">Demo01</a></li>
         <li><a class="link_detail" href="https://heec0206.github.io/hc/publish/hana_dashboard/publish/dashboard/dashboard_manager.html" target="_blank">Demo02</a></li>
       </ul>
     </div>
