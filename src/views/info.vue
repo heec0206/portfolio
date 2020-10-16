@@ -4,13 +4,13 @@
       <div class="profile">
   			<div class="profileL"><span class="profileImg"></span></div>
   			<div class="profileR">
-  				<span class="nickName">_____HC</span>
+  				<span class="nickName">Web Publisher 최희창</span>
   				<ul>
   					<li>생년월일<span>1992.02.06</span></li>
-  					<li>경력<span>약 3년 4개월</span></li>
+  					<li>경력<span>약 4년 7개월</span></li>
   					<li>연락처<span>010-7364-7387</span></li>
   				</ul>
-  				<span class="profileInfo">111<br>222</span>
+  				<span class="profileInfo">약 15여개의 다수 프로젝트 진행 경험<br>'나는 프로다.'</span>
   			</div>
   		</div>
       <!-- EOD : profile -->
