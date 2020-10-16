@@ -342,6 +342,9 @@ $txt_strong : 500;
         color:#fff;
         span {
           color:#fff;
+          &:before {
+            content:'\f106';
+          }
         }
       }
       span {
@@ -418,6 +421,19 @@ $txt_strong : 500;
       }
     }
   }
+  .profileBox {
+    .info {
+      .infoBox {
+        padding:25px;
+      }
+    }
+    .name {
+      padding:16px 20px;
+      span {
+        top:18px;
+      }
+    }
+  }
 }
 
 @media only all and (max-width:640px){
@@ -484,6 +500,24 @@ $txt_strong : 500;
         float:none;
         width:auto;
         margin:8px 0 0 0;
+      }
+    }
+  }
+  .profileBox {
+    h3 {
+      font-size:18px;
+    }
+    .info {
+      .infoBox {
+        padding:25px;
+      }
+    }
+    .name {
+      padding:16px;
+      font-size:18px;
+      span {
+        top:19px;
+        font-size:24px;
       }
     }
   }
