@@ -10,7 +10,7 @@
   					<li>경력<span>약 4년 7개월</span></li>
   					<li>연락처<span>010-7364-7387</span></li>
   				</ul>
-  				<span class="profileInfo">약 15여개의 다수 프로젝트 진행 경험<br>'나는 프로다.'</span>
+  				<span class="profileInfo">약 15여개의 다수 프로젝트 진행 경험<br>2020.11.01 업무 투입 가능</span>
   			</div>
   		</div>
       <!-- EOD : profile -->
